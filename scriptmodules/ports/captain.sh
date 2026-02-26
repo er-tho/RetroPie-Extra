@@ -13,7 +13,8 @@ rp_module_id="captain_s"
 rp_module_desc="Captain 'S' The Remake"
 rp_module_help="Controls: Arrow: Move, CTRL: Action, ENTER: Change character when get a sausage or change superpower when you are Captain S.
 
-Note: there is bug in the game where you can't change language once you set one. Fix it by deleting the file 'capitan.cfg' in ~/.capitan (reset the full configuration)"
+Note: there is bug in the game where you can't change language once you set one. Fix it by deleting the file 'capitan.cfg' in ~/.capitan (reset the full configuration).
+The game sometimes resets itself to spanish..."
 rp_module_licence="MIT https://raw.githubusercontent.com/jmcerrejon/PiKISS/master/LICENSE.md"
 rp_module_repo="file https://github.com/Exarkuniv/Rpi-pikiss-binary/raw/Master/captain_s.tar.gz"
 rp_module_section="exp"
