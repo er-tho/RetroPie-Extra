@@ -31,6 +31,5 @@ function install_bin_adom() {
 
 function configure_adom() {
     addPort "$md_id" "adom" "ADOM - Ancient Domains of Mystery" "CON:$md_inst/adom"
-    mkRomDir "ports"
     moveConfigDir "$home/.adom.data" "$md_conf_root/adom"
 }

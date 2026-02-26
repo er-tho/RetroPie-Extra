@@ -10,7 +10,7 @@
 #
 
 rp_module_id="0ad"
-rp_module_desc="0ad - Battle of Survival - is a futuristic real-time strategy game"
+rp_module_desc="0ad, a free, open-source, cross-platform real-time strategy game of ancient warfare"
 rp_module_licence="GNU https://libregamewiki.org/GNU_General_Public_License"
 rp_module_section="exp"
 rp_module_flags="!mali rpi4 rpi5"
@@ -35,5 +35,5 @@ matchbox-window-manager -use_titlebar no &
 _EOF_
 
     chmod +x "$script"
-    addPort "$md_id" "0ad" "0A.D - Battle of Survival" "XINIT:$script"
+    addPort "$md_id" "0ad" "0 A.D" "XINIT:$script"
 }
